@@ -1,4 +1,4 @@
-{% set version = "4.8.2" %}
+{% set version = "4.8.4" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bit64_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bit64/bit64_{{ version }}.tar.gz
-  sha256: be5907acc6ebc389e9fb3fb6760b07ca4ee9c6da2fe1c286277bc67b9af5db9f
+  sha256: 1feb4384058b1510861e296f317ee9f43aca75b753065d2268317620f8c208bc
 
 build:
   number: 0
